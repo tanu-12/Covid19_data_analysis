@@ -1,0 +1,6 @@
+SELECT TOP (1000) [location]
+      ,[date]
+      ,[population]
+      ,[new_vaccinations]
+      ,[rollingPeopleVaccination]
+  FROM [PortfolioProject].[dbo].[PercentPopulationVaccinations]
